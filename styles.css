@@ -1,0 +1,207 @@
+body{
+    background-color: #f4e1d2;
+    color:;
+}
+
+.navbarr{
+    margin: 20px;
+    
+}
+.navbarr a.active {
+    background-color: #f1d5a1;
+    color: white;
+  
+}
+  
+footer{
+    text-align:center;
+    background-color: #f8f9fa;
+    color: #6c757d;
+    margin:20px;
+}
+h1{
+    font-family:;
+    font-size: ;
+    text-align:center;
+
+}
+.jumbotron{
+    background-color:#f4e1d2;
+}
+.szoveg{
+    font-size:20px;
+    margin-top:20px;
+    margin-left:70px;
+}
+.gyak{
+    font-size:20px;
+    margin-top:20px;
+    margin-left:250px; 
+}
+.osszespont{
+    margin:-25px 0px 0px 880px ;
+}
+.osztalyzat{
+    margin: -28px 0px 0px 605px ;
+    }
+.a, .b, .c, .d, .e{
+    width:50px;
+    text-align: center;
+    font-size: 22px;
+}
+.a{
+    margin-left:180px ;
+}
+.b{
+    
+    margin-left:30px ;
+}
+.c{
+    margin-left:205px;
+}
+.d{
+    margin-left:183px;
+}
+.gomb{
+    margin-top:30px;
+    margin-left:10px ;
+}
+.e{
+    margin-left:32px ;
+}
+.f{
+    margin:20px 0px 0px 718px ;
+    Width:200px;
+    font-size: 22px;    
+}
+.card-title{
+    text-align: center;
+}
+.grid-container-2,  .grid-container-3 {
+    margin-left: 70px;
+    justify-content: flex; 
+    grid-template-rows: 40px ;    
+    grid-gap: 3px;
+    background-color: #F38F42;
+    padding: 3px;
+    display: grid;
+
+
+}
+.grid-container-2 > div, .grid-container-3 > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.grid-container-2 {
+    grid-template-columns: 120px 70px 70px 70px 70px 70px;
+    width: 491px;
+}
+.grid-container-3 {
+    grid-template-columns: 160px 190px ;
+    width: 359px;
+    margin-top: 45px;
+    
+}
+#zsebszamologep{
+    font-weight: bolder;
+}
+.fo{
+    float: left;
+    margin-left:3%;
+}
+.fo2{
+    float: right;
+    margin-top:0px;
+    margin-right:7%;
+}
+.a2{
+    margin-left:210px ;
+}
+.b2{
+    
+    margin-left:25px ;
+}
+.c2{
+    margin-left:270px;
+}
+.d2{
+    margin-left:158px;
+}
+.gomb2{
+    margin-top:30px;
+    margin-left:52px ;
+}
+.e2{
+    margin-left:20px ;
+}
+.a2, .b2, .c2, .d2, .e2{
+    width:50px;
+    text-align: center;
+    font-size: 22px;
+}
+#bold{
+    font-style: italic;
+}
+.img-thumbnail{
+    height:350;
+    width:200px;
+    float:right;
+}
+.forrasok{
+    margin-top:600px;
+}
+
+@media screen and (max-width: 350px){}
+    @media screen and (min-width: 351px) and (max-width: 640px){
+    .fo{
+        float:left;
+        margin-left:-33px;
+    }
+    .fo2{
+        float: left;
+        margin-left:-33px;
+        margin-top:30px;
+    }
+    }
+    @media screen and (min-width: 641px) and (max-width: 800px){
+    .fo{
+        float:left;
+        margin-left:50px;
+    }
+    .fo2{
+        float: left;
+        margin-left:50px;
+        margin-top:30px;
+    }
+    }
+    @media screen and (min-width: 801px) and (max-width: 1024px){
+    .fo{
+        float:left;
+        margin-left:90px;
+    }
+    .fo2{
+        float: left;
+        margin-left:80px;
+        margin-top:30px;
+    }
+    }
+    @media screen and (min-width:1025px) and (max-width: 1280px){
+    .fo{
+        margin-left:300px;
+    }
+    .fo2{
+        float: left;
+        margin-left:300px;
+        margin-top:30px;
+
+    }
+    }
+    @media screen and (min-width:1281px) and (max-width:1600px){}
+    @media screen and (min-width:1601px) and (max-width: 1920px){}
+    @media screen and (min-width:1921px){}
